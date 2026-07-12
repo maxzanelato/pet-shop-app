@@ -1,4 +1,4 @@
-version: 3.8
+version: '3.8'
 services:
   postgres:
     image: postgres:17
@@ -11,7 +11,7 @@ services:
       POSTGRES_PASSWORD: docker
       POSTGRES_DB: petshop
     volumes:
-      - pg_data:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
 
 volumes:
-  pg_data:
+  pgdata:
