@@ -45,3 +45,4 @@ pgdata/
 
 #generated files
 src/generated/
+/app/generated/prisma
